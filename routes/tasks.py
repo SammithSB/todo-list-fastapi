@@ -5,7 +5,9 @@ from schema.tasks import tasksEntity, taskEntity
 from bson import ObjectId as objectID
 
 tasks = APIRouter()
-
+@app.get("/")
+async def root():
+    return {"message": "Hello World"}
 
 @tasks.get("/tasks")
 async def find_all_tasks():
