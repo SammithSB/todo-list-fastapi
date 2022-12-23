@@ -35,7 +35,7 @@ jobs:
     - name: Lint with black
       run: |
         # Code formatting with black, check every python file in the src directory 
-        black todo-list-fastapi
-        black --check todo-list-fastapi
+        black ../todo-list-fastapi
+        black --check ../todo-list-fastapi
 
 
