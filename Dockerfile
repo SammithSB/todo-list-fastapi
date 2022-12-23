@@ -11,8 +11,7 @@ COPY ./config/ /todo-list-fastapi/config
 COPY ./schema/ /todo-list-fastapi/schema
 COPY ./routes/ /todo-list-fastapi/routes
 COPY ./models/ /todo-list-fastapi/models
-COPY ./main.py /todo-list-fastapi
-COPY ./.env /todo-list-fastapi
+
 COPY ./requirements.txt /todo-list-fastapi
 WORKDIR /todo-list-fastapi
 
