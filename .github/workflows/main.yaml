@@ -31,5 +31,11 @@ jobs:
         python -m pip install --upgrade pip
         python -m pip install black pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-  
+    #Add this under the steps 
+    - name: Lint with black
+      run: |
+        # Code formatting with black, check every python file in the src directory 
+        black todo-list-fastapi
+        black --check todo-list-fastapi
+
 
