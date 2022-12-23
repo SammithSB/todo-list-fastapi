@@ -15,7 +15,7 @@ uvicorn app:app --reload
 ### Usage
 For local usage, running the above command will start the server at [http://localhost:8000](http://localhost:8000)
 
-Otherwise the deployed API can be accessed at [to-be-done](to-be-done)
+Otherwise the deployed API can be accessed at [to-be-done](https://todo-list-api-it9x.onrender.com/docs)
 
 ### Available endpoints are
 
