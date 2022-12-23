@@ -15,7 +15,7 @@ COPY ./main /code/main
 COPY ./config /code/config
 COPY ./models /code/models
 COPY ./routes /code/routes
-COPY ./schemas /code/schemas
+COPY ./schema /code/schema
 
 # 
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
