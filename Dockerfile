@@ -11,7 +11,7 @@ COPY ./requirements.txt /code/requirements.txt
 RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 
 # 
-COPY ./main /code/main
+COPY ./main.py /code
 COPY ./config /code/config
 COPY ./models /code/models
 COPY ./routes /code/routes
