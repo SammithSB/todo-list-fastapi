@@ -1,4 +1,4 @@
-This is the start of a series of learning that I am trying to do using ChatGPT. Instead of asking ChatGPT to give me solutions to my problems, the idea is to ask it to give me problems that I can solve and learn. The first problem I asked it to give me was a backend assignment that involves me using FastAPI to build a todo list app. This is the implementation of the same, as this series goes on I will take up tougher problems too. It has even told me to host the app on glitch. so will be doing that.
+This is the start of a series of learning that I am trying to do using ChatGPT. Instead of asking ChatGPT to give me solutions to my problems, the idea is to ask it to give me problems that I can solve and learn. The first problem I asked it to give me was a backend assignment that involves me using FastAPI to build a todo list app. This is the implementation of the same, as this series goes on I will take up tougher problems too. It has even told me to host the app on glitch, ended up hosting it on render. so will be doing that.
 
 ### Requirements
 - python3
@@ -15,7 +15,7 @@ uvicorn app:app --reload
 ### Usage
 For local usage, running the above command will start the server at [http://localhost:8000](http://localhost:8000)
 
-Otherwise the deployed API can be accessed at [to-be-done](https://todo-list-api-it9x.onrender.com/docs)
+Otherwise the deployed API can be accessed at [todo-done](https://todo-list-api-it9x.onrender.com/docs)
 
 ### Available endpoints are
 
